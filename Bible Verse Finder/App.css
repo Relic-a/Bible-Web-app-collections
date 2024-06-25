@@ -1,0 +1,77 @@
+nav{
+	padding: 60px;
+	width: 100vw;
+	background-color: #E1FBFA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	margin-bottom: 2rem;
+}
+.mainSection{
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Libre Caslon Text", serif;
+}
+.searchSection{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 70px;
+}
+#searchBar{
+	padding: 8px;
+	padding-left: 32px;
+	margin-right: 1.5rem;
+	width: 95%;
+	border-radius: 48px;
+/*	font-family: "Libre Caslon Text", serif;*/
+	background-color: #E1F1F1;
+	border: none;
+	font-size: 18px;
+	height: 3rem;
+}
+#searchBar:focus{
+	outline: 2px solid rgba(0,0,0,0.5);
+}
+.searchIcon{
+	scale: 1.5;
+	transition: all 0.1s ease-in;
+}
+.searchIcon:hover{
+	cursor: pointer;
+	scale: 1.3;
+}
+.verseSection{
+	align-self: start;
+	padding-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+.verseAddress h6{
+	font-size: 0.9rem;
+	background-color: #E1FBFA;
+	width: fit-content;
+	padding: 0.8rem 2rem;
+	font-weight: 800;
+	font-size: 16px;
+	margin-bottom: 10px;
+	transition: all 0.2s ease-in;
+}
+.verseAddress h6:hover{
+	cursor: pointer;
+	scale: 1.03;
+}
+.actualVerse p{
+	font-size: 1.4rem;
+/*	font-family: "Libre Caslon Text", serif;*/
+	padding-left: 8px;
+	transition: all 0.2s ease-in;
+}
+.actualVerse p:hover{
+	cursor: pointer;
+	opacity: 0.9;
+	color: darkgoldenrod;
+}

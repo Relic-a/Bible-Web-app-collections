@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Coming Soon',cursive;
+  font-weight: normal;
+}
+body{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* justify-content: center; */
+  width: 90%;
+  height: 100%;
+}

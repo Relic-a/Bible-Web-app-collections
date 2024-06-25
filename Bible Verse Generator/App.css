@@ -1,0 +1,57 @@
+h1{
+  font-size: 48px;
+}
+.mainSection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.verse-copy{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+}
+.copy{
+  background-color: white;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 48px;
+  font-size: 18px;
+  transition: all 0.2s ease-in;
+  transition: scale 0.3s ease-in;
+}
+.copy:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 0 0 3px black inset;
+  scale: 1.05;
+  background-color: #FCFCFC;
+}
+.verse{
+  width: 100%;
+  height: 35vh;
+  background-color: white;
+  margin-top: 18px;
+  color: black;
+  font-size: 32px;
+  padding: 1rem 2rem;
+}
+#generateVerse{
+  color:white;
+  padding: 18px 32px;
+  border-radius: 48px;
+  font-size: 24px;
+  margin-top: 3rem;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid black;
+  background-color: #031E1D;
+}
+#generateVerse:hover{
+  cursor: pointer;
+  background-color: black;
+  scale: 1.05;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
